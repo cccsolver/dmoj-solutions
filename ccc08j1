@@ -1,0 +1,16 @@
+//code by cccsolver on 7/10/2022
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    double w, h, bmi;
+    cin >> w >> h;
+    bmi = 1.0 * w / (h * h);
+    if (bmi < 18.5) {
+        cout << "Underweight";
+    } else if (bmi < 25.0) {
+        cout << "Normal weight";
+    } else {
+        cout << "Overweight";
+    }
+    return 0;
+}
