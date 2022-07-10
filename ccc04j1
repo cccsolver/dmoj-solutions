@@ -1,0 +1,10 @@
+//code by cccsolver on 7/10/2022
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int a;
+    cin >> a;
+    a = sqrt(a);
+    cout << "The largest square has side length " << a << ".";
+    return 0;
+}
