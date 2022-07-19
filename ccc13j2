@@ -1,0 +1,15 @@
+//code by cccsolver on 7/19/2022
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    string a;
+    cin >> a;
+    for (int i = 0; i < a.size(); i++) {
+        if (a[i] != 'I' && a[i] != 'O' && a[i] != 'S' && a[i] != 'H' && a[i] != 'Z' && a[i] != 'X' && a[i] != 'N') {
+            cout << "NO";
+            return 0;
+        }
+    }
+    cout << "YES";
+    return 0;
+}
