@@ -1,0 +1,16 @@
+//code by cccsolver on 7/19/2022
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int a, b, c, d, e, f;
+    cin >> a >> b >> c >> d >> e >> f;
+    int n = 3 * a + 2 * b + c, m = 3 * d + 2 * e + f;
+    if (n == m) {
+        cout << "T";
+    } else if (n > m) {
+        cout << "A";
+    } else {
+        cout << "B";
+    }
+    return 0;
+}
